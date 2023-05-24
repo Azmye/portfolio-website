@@ -14,13 +14,11 @@ export default function Home() {
           </h2>
           <p className="text-xl mt-2">As a highly motivated and skilled front-end developer, I am excited to bring my passion for coding to a new role.</p>
           <div className="h-10 md:h-20">
-            <DownloadButton
-              children={
-                <span className="flex">
-                  <HiOutlineArrowLongRight className="text-2xl mr-3" /> Resume
-                </span>
-              }
-            />
+            <DownloadButton>
+              <span className="flex">
+                <HiOutlineArrowLongRight className="text-2xl mr-3" /> Resume
+              </span>
+            </DownloadButton>
           </div>
         </div>
         <div className="md:w-2/6 lg:w-2/5">
