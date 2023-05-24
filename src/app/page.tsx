@@ -24,7 +24,7 @@ export default function Home() {
         <div className="md:w-2/6 lg:w-2/5">
           <div className="rounded-l-md overflow-hidden relative lg:ml-auto lg:w-96">
             <Image priority={true} className="w-full" src={profilePics} alt="Profile Image" />
-            <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-gradient-to-t from-white/60 via-transparent to-white md:hidden"></div>
+            <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-gradient-to-t from-transparent to-white md:hidden"></div>
           </div>
         </div>
       </div>
