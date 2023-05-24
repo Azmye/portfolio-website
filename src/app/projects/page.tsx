@@ -7,7 +7,7 @@ import ProjectCard from '@/components/projects/projectCard';
 
 export default function projects() {
   return (
-    <div className="px-4 pt-16 pb-10 md:px-8 lg:px-36 lg:pt-8">
+    <div className="px-4 pt-16 pb-10 md:px-8 lg:px-36 lg:pt-20">
       <div className="lg:flex md:gap-x-5">
         <div className="mb-5 md:w-full md:mb-2 lg:w-1/5 lg:mb-0">
           <h2 className="font-bold text-4xl lg:text-6xl">Projects</h2>

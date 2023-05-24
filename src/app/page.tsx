@@ -6,7 +6,7 @@ import DownloadButton from '@/components/buttons/resume-downloader';
 
 export default function Home() {
   return (
-    <div className="px-4 pt-16 pb-20 md:px-8 lg:px-36 lg:pt-8">
+    <div className="px-4 pt-16 pb-20 md:px-8 lg:px-36 lg:pt-20">
       <div className="md:flex">
         <div className="md:w-4/6 lg:w-3/5 my-auto">
           <h2 className="text-3xl md:text-6xl font-bold">

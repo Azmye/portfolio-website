@@ -7,9 +7,9 @@ import { usePathname } from 'next/navigation';
 export default function Navbar() {
   const currentRoute = usePathname();
   return (
-    <nav className="hidden md:block">
+    <nav className="hidden fixed right-0 left-0 md:block border-b-2 bg-white/60 backdrop-blur-md">
       <div className="md:px-8 lg:px-36 container">
-        <div className="py-3 flex items-center justify-between border-b-2">
+        <div className="py-3 flex items-center justify-between">
           <div className="flex items-center">
             <h2 className="font-bold text-lg">mhmmd azmi</h2>
             <ul className="pl-5 flex gap-x-3">
