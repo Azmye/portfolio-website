@@ -26,8 +26,10 @@ export default function ProjectCard(props: any) {
         <div>
           <h3 className="font-bold">Technologies : </h3>
           <div className="flex items-center gap-x-3">
-            {props.tech?.map((tech: string) => (
-              <span className="px-2 py-1 bg-gray-200 rounded-md">{tech}</span>
+            {props.tech?.map((tech: string, index: number) => (
+              <span key={index} className="px-2 py-1 bg-gray-200 rounded-md">
+                {tech}
+              </span>
             ))}
           </div>
         </div>
