@@ -9,7 +9,7 @@ export default function Home() {
       <div className="md:flex">
         <div className="md:w-4/6 lg:w-3/5 my-auto">
           <h2 className="text-3xl md:text-6xl font-bold">
-            Hi, I'm <span className="text-red-700">Azmi</span>
+            Hi, I&apos;m <span className="text-red-700">Azmi</span>
           </h2>
           <p className="text-xl mt-2">As a highly motivated and skilled front-end developer, I am excited to bring my passion for coding to a new role.</p>
           <div className="h-10 md:h-20">
