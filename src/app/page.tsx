@@ -2,6 +2,7 @@ import React from 'react';
 import profilePics from '/public/image/profile.jpg';
 import Image from 'next/image';
 import { HiOutlineArrowLongRight } from 'react-icons/hi2';
+import DownloadButton from '@/components/buttons/resume-downloader';
 
 export default function Home() {
   return (
@@ -13,14 +14,18 @@ export default function Home() {
           </h2>
           <p className="text-xl mt-2">As a highly motivated and skilled front-end developer, I am excited to bring my passion for coding to a new role.</p>
           <div className="h-10 md:h-20">
-            <p className="text-red-600 w-fit md:px-2 py-1 font-bold flex items-center gap-x-2 mt-5 cursor-pointer hover:text-red-700 duration-300 ease-in-out hover:border-b-2 hover:border-r-2 border-red-700 md:bg-transparent md:text-red-900">
-              <HiOutlineArrowLongRight className="text-2xl" /> Resume
-            </p>
+            <DownloadButton
+              children={
+                <span className="flex">
+                  <HiOutlineArrowLongRight className="text-2xl mr-3" /> Resume
+                </span>
+              }
+            />
           </div>
         </div>
         <div className="md:w-2/6 lg:w-2/5">
           <div className="rounded-l-md overflow-hidden relative lg:ml-auto lg:w-96">
-            <Image className="w-full" src={profilePics} alt="Profile Image" />
+            <Image priority={true} className="w-full" src={profilePics} alt="Profile Image" />
             <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-gradient-to-t from-white/60 via-transparent to-white md:hidden"></div>
           </div>
         </div>
