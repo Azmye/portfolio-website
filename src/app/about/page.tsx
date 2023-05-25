@@ -55,31 +55,31 @@ export default function About() {
           <div className="dark:text-white">
             <h2 className="font-bold text-4xl">Skills</h2>
             <div className="pt-3 gap-3 text-transparent/80 flex flex-wrap md:flex-row md:gap-x-6 dark:text-white/80">
-              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-700 md:bg-gray-200  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
+              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-200 dark:bg-gray-700  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
                 <SiCreatereactapp className="text-xl md:text-5xl lg:text-7xl" />
                 <p>React</p>
               </span>
-              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-700 md:bg-gray-200  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
+              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-200 dark:bg-gray-700  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
                 <SiNodedotjs className="text-xl md:text-5xl lg:text-7xl" />
                 <p>Node Js</p>
               </span>
-              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-700 md:bg-gray-200  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
+              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-200 dark:bg-gray-700  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
                 <SiGoland className="text-xl md:text-5xl lg:text-7xl" />
                 <p>GO</p>
               </span>
-              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-700 md:bg-gray-200  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
+              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-200 dark:bg-gray-700  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
                 <SiJavascript className="text-xl md:text-5xl lg:text-7xl" />
                 <p>Javascript</p>
               </span>
-              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-700 md:bg-gray-200  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
+              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-200 dark:bg-gray-700  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
                 <SiNextdotjs className="text-xl md:text-5xl lg:text-7xl" />
                 <p>Next Js</p>
               </span>
-              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-700 md:bg-gray-200  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
+              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-200 dark:bg-gray-700  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
                 <SiMysql className="text-xl md:text-5xl lg:text-7xl" />
                 <p>Mysql</p>
               </span>
-              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-700 md:bg-gray-200  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
+              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-200 dark:bg-gray-700  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
                 <SiPostgresql className="text-xl md:text-5xl lg:text-7xl" />
                 <p>Postgre</p>
               </span>
