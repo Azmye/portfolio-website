@@ -8,6 +8,12 @@ import { usePathname } from 'next/navigation';
 export default function Navbar() {
   const currentRoute = usePathname();
   const [theme, setTheme] = useState(null);
+  const [localStrg, setLocalStrg] = useState('');
+
+  useEffect(() => {
+    const item = localStorage.getItem('theme');
+    setLocalStrg(String(item));
+  }, [theme]);
 
   useEffect(() => {
     if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -42,7 +48,7 @@ export default function Navbar() {
           </div>
           <div className="flex items-center gap-x-3">
             <div className="flex items-center">
-              {localStorage?.theme === 'dark' ? (
+              {theme === 'dark' || localStrg === 'dark' ? (
                 <button onClick={() => handleTheme('light')} className="text-white hover:text-red-700">
                   <MdDarkMode size={26} />
                 </button>
