@@ -10,7 +10,7 @@ export default function ProjectCard(props: any) {
       <div className="w-full shadow-xl rounded-md overflow-hidden md:w-3/6">
         <Image priority={true} src={props.image} alt={props.title} className="w-full h-full" />
       </div>
-      <div className="flex flex-col justify-between md:w-3/6">
+      <div className="flex flex-col justify-between md:w-3/6 dark:text-white">
         <div className="flex items-center justify-between">
           <h2 className="font-bold text-2xl">{props.title}</h2>
           {props.live ? (
@@ -27,7 +27,7 @@ export default function ProjectCard(props: any) {
           <h3 className="font-bold">Technologies : </h3>
           <div className="flex items-center gap-x-3">
             {props.tech?.map((tech: string, index: number) => (
-              <span key={index} className="px-2 py-1 bg-gray-200 rounded-md">
+              <span key={index} className="px-2 py-1 bg-gray-200 rounded-md dark:text-black">
                 {tech}
               </span>
             ))}
