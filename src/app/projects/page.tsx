@@ -3,6 +3,7 @@ import playwatch from '/public/image/projects/playwatch.png';
 import dumbflix from '/public/image/projects/dumbflix.png';
 import waysfood from '/public/image/projects/waysfood.png';
 import ProjectCard from '@/components/projects/projectCard';
+import MagicMatch from '/public/image/projects/magicMatch.png';
 
 export default function projects() {
   return (
@@ -32,6 +33,7 @@ export default function projects() {
             client={`https://github.com/Azmye/Waysfood-FrontEnd`}
             server={`https://github.com/Azmye/Waysfood-backend`}
           />
+          <ProjectCard image={MagicMatch} title={`Memory Game`} tech={[`NextJs`]} live={`https://memory-game-six-peach.vercel.app/`} case={`Creating a simple memory game.`} client={`https://github.com/Azmye/memory-game`} />
         </div>
       </div>
     </div>
