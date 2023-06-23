@@ -33,7 +33,7 @@ export default function projects() {
             client={`https://github.com/Azmye/Waysfood-FrontEnd`}
             server={`https://github.com/Azmye/Waysfood-backend`}
           />
-          <ProjectCard image={MagicMatch} title={`Memory Game`} tech={[`NextJs`]} live={`https://memory-game-six-peach.vercel.app/`} case={`Creating a simple memory game.`} repo={`https://github.com/Azmye/memory-game`} />
+          <ProjectCard image={MagicMatch} title={`Magic Match`} tech={[`NextJs`]} live={`https://memory-game-six-peach.vercel.app/`} case={`Creating a simple memory game.`} repo={`https://github.com/Azmye/memory-game`} />
         </div>
       </div>
     </div>
