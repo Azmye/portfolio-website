@@ -1,9 +1,10 @@
-import React from 'react';
-import playwatch from '/public/image/projects/playwatch.png';
-import dumbflix from '/public/image/projects/dumbflix.png';
-import waysfood from '/public/image/projects/waysfood.png';
-import ProjectCard from '@/components/projects/projectCard';
-import MagicMatch from '/public/image/projects/magicMatch.png';
+import React from "react";
+import playwatch from "/public/image/projects/playwatch.png";
+import dumbflix from "/public/image/projects/dumbflix.png";
+import waysfood from "/public/image/projects/waysfood.png";
+import ProjectCard from "@/components/projects/projectCard";
+import MagicMatch from "/public/image/projects/magicMatch.png";
+import erm from "/public/image/projects/erm.png";
 
 export default function projects() {
   return (
@@ -14,7 +15,20 @@ export default function projects() {
           <p className="text-lg mt-2 dark:text-white/80">Some of my projects</p>
         </div>
         <div className="md:w-full lg:w-4/5">
-          <ProjectCard image={playwatch} title={`Playwatch`} tech={[`React`]} live={`https://playwatch-lime.vercel.app/`} case={`Learning how to consume Rest API.`} repo={`https://github.com/Azmye/playwatch`} />
+          <ProjectCard
+            image={erm}
+            title={`E-Medical Records`}
+            tech={[`React`, `Typescript`]}
+            case={`Electronic Medical Records compliant with Ministry of Health standards. (Due to copyright purposes, I cannot show all the screenshots.)`}
+          />
+          <ProjectCard
+            image={playwatch}
+            title={`Playwatch`}
+            tech={[`React`]}
+            live={`https://playwatch-lime.vercel.app/`}
+            case={`Learning how to consume Rest API.`}
+            repo={`https://github.com/Azmye/playwatch`}
+          />
           <ProjectCard
             image={dumbflix}
             title={`Dumbflix`}
@@ -33,7 +47,14 @@ export default function projects() {
             client={`https://github.com/Azmye/Waysfood-FrontEnd`}
             server={`https://github.com/Azmye/Waysfood-backend`}
           />
-          <ProjectCard image={MagicMatch} title={`Magic Match`} tech={[`NextJs`]} live={`https://memory-game-six-peach.vercel.app/`} case={`Creating a simple memory game.`} repo={`https://github.com/Azmye/memory-game`} />
+          <ProjectCard
+            image={MagicMatch}
+            title={`Magic Match`}
+            tech={[`NextJs`]}
+            live={`https://memory-game-six-peach.vercel.app/`}
+            case={`Creating a simple memory game.`}
+            repo={`https://github.com/Azmye/memory-game`}
+          />
         </div>
       </div>
     </div>

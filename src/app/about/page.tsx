@@ -1,6 +1,14 @@
-import React from 'react';
-import { FaChevronCircleRight } from 'react-icons/fa';
-import { SiCreatereactapp, SiNodedotjs, SiGoland, SiJavascript, SiMysql, SiPostgresql, SiNextdotjs } from 'react-icons/si';
+import React from "react";
+import { FaChevronCircleRight } from "react-icons/fa";
+import {
+  SiCreatereactapp,
+  SiNodedotjs,
+  SiGoland,
+  SiJavascript,
+  SiMysql,
+  SiPostgresql,
+  SiNextdotjs,
+} from "react-icons/si";
 
 export default function About() {
   return (
@@ -17,11 +25,66 @@ export default function About() {
             </h2>
             <p className="mt-2 text-md text-justify dark:text-white/80">
               <span className="font-bold">
-                My Name is Muhammad <span className="text-red-700 md:text-black md:dark:text-red-500">Azmi</span>
+                My Name is Muhammad{" "}
+                <span className="text-red-700 md:text-black md:dark:text-red-500">
+                  Azmi
+                </span>
               </span>
-              , As a highly motivated and skilled front-end developer, I am excited to bring my passion for coding to a new role. I have several portfolio projects that demonstrate my abilities in front-end development. I am always looking
-              to learn new technologies and stay up-to-date on industry trends. I am a fast learner and a team player, and I am excited to connect with others in the field and explore new opportunities.
+              , as a Frontend Developer I have actively contributed to the
+              development of Electronic Medical Records and various Bootcamp
+              Projects. Proficient in ReactJs, TypeScript, and JavaScript, I
+              also have hands-on experience with CSS Frameworks including
+              Tailwind and Material UI. I am passionate about collaborative
+              work, consistently collaborating with fellow engineers to create
+              visually appealing and highly functional websites.
             </p>
+          </div>
+          <div className="mb-5 dark:text-white">
+            <h2 className="font-bold text-4xl">Experiences</h2>
+            <div className="mt-2">
+              <ul className="">
+                <li className="border-b-2 pb-2">
+                  <div className="flex items-center gap-x-3">
+                    <FaChevronCircleRight className="text-red-700" />
+                    <h2 className="font-bold text-2xl text-black dark:text-white">
+                      Frontend Developer
+                    </h2>
+                  </div>
+                  <div className="pl-7">
+                    <h3 className="font-bold">
+                      RSUD dr.R.Soedarsono Kota Pasuruan
+                    </h3>
+                    <ul className="list-disc pl-7">
+                      <li>
+                        Developing Electronic Medical Records for the Hospital
+                        that has Ministry of health standards.
+                      </li>
+                      <li>
+                        Developing attendance app with main features such as
+                        face detections, user location and leave request.
+                      </li>
+                    </ul>
+                    <p className="text-black/60 dark:text-white/60">
+                      Aug 2023 - Present
+                    </p>
+                  </div>
+                </li>
+                <li className="border-b-2 pb-2">
+                  <div className="flex items-center gap-x-3">
+                    <FaChevronCircleRight className="text-red-700" />
+                    <h2 className="font-bold text-2xl text-black dark:text-white">
+                      Software Engineer (Internship)
+                    </h2>
+                  </div>
+                  <div className="pl-7">
+                    <h3 className="font-bold">Diskominfo Kota Banjarmasin</h3>
+                    <p className="text-black/60 dark:text-white/60">
+                      Jan 2021 - May 2021
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="mb-5 dark:text-white">
             <h2 className="font-bold text-4xl">Education</h2>
@@ -30,23 +93,31 @@ export default function About() {
                 <li className="border-b-2 pb-2">
                   <div className="flex items-center gap-x-3">
                     <FaChevronCircleRight className="text-red-700" />
-                    <h2 className="font-bold text-2xl text-black dark:text-white">Coding Bootcamp</h2>
+                    <h2 className="font-bold text-2xl text-black dark:text-white">
+                      Coding Bootcamp
+                    </h2>
                   </div>
                   <div className="pl-7">
                     <h3 className="font-bold">Dumbways Indonesia</h3>
                     <p>Fullstack Developer</p>
-                    <p className="text-black/60 dark:text-white/60">FEB 2023 - MAY 2023</p>
+                    <p className="text-black/60 dark:text-white/60">
+                      FEB 2023 - MAY 2023
+                    </p>
                   </div>
                 </li>
                 <li className="border-b-2 pb-2">
                   <div className="flex items-center gap-x-3">
                     <FaChevronCircleRight className="text-red-700" />
-                    <h2 className="font-bold text-2xl text-black dark:text-white">Vocational School</h2>
+                    <h2 className="font-bold text-2xl text-black dark:text-white">
+                      Vocational School
+                    </h2>
                   </div>
                   <div className="pl-7">
                     <h3 className="font-bold">SMKN 4 BANJARMASIN</h3>
                     <p>Software Engineering</p>
-                    <p className="text-black/60 dark:text-white/60">JUNI 2019 - JUNI 2023</p>
+                    <p className="text-black/60 dark:text-white/60">
+                      JUNI 2019 - JUNI 2023
+                    </p>
                   </div>
                 </li>
               </ul>
@@ -58,6 +129,10 @@ export default function About() {
               <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-200 dark:bg-gray-700  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
                 <SiCreatereactapp className="text-xl md:text-5xl lg:text-7xl" />
                 <p>React</p>
+              </span>
+              <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-200 dark:bg-gray-700  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
+                <SiCreatereactapp className="text-xl md:text-5xl lg:text-7xl" />
+                <p>React Native</p>
               </span>
               <span className="flex gap-x-3 px-2 py-2 items-center justify-start bg-gray-200 dark:bg-gray-700  md:gap-0 md:px-0 md:py-0 md:bg-transparent md:flex-col md:items-start">
                 <SiNodedotjs className="text-xl md:text-5xl lg:text-7xl" />
