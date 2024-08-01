@@ -116,7 +116,7 @@ export default function About() {
                     <h3 className="font-bold">SMKN 4 BANJARMASIN</h3>
                     <p>Software Engineering</p>
                     <p className="text-black/60 dark:text-white/60">
-                      JUNI 2019 - JUNI 2023
+                      JUNI 2019 - JUNI 2022
                     </p>
                   </div>
                 </li>
